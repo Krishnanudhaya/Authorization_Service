@@ -1,0 +1,14 @@
+com\tringapps\test\vo\RoleVO.class
+com\tringapps\test\controller\AuthorizationController.class
+com\tringapps\test\model\Privilege.class
+com\tringapps\test\model\Role.class
+com\tringapps\test\vo\ResponseVO.class
+com\tringapps\test\repository\RoleRepository.class
+com\tringapps\test\DemoApplication.class
+com\tringapps\test\service\AuthorizationService.class
+com\tringapps\test\repository\UserRepository.class
+com\tringapps\test\vo\PrivilegeVO.class
+com\tringapps\test\service\impl\AuthorizationServiceImpl.class
+com\tringapps\test\repository\PrivilegeRepository.class
+com\tringapps\test\vo\UserVO.class
+com\tringapps\test\model\User.class

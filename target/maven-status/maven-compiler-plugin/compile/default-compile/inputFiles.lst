@@ -1,0 +1,14 @@
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\DemoApplication.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\model\User.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\vo\RoleVO.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\vo\UserVO.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\service\impl\AuthorizationServiceImpl.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\repository\PrivilegeRepository.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\vo\ResponseVO.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\repository\RoleRepository.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\model\Privilege.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\model\Role.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\vo\PrivilegeVO.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\repository\UserRepository.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\service\AuthorizationService.java
+C:\Win_Krishnan\java_developer\Interview_Test_Programs\User_Auth\src\main\java\com\tringapps\test\controller\AuthorizationController.java

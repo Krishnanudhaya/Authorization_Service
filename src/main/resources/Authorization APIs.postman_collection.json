@@ -1,0 +1,198 @@
+{
+	"id": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+	"name": "Authorization APIs",
+	"description": "",
+	"order": [
+		"0f9c1703-a5ed-6a72-66b3-7a5977c59e99",
+		"80608da2-f9be-586a-73f9-90f1453fe475",
+		"5b908d3f-a43c-87f6-3bca-48bedc999222",
+		"a821a3af-4819-3c40-9808-8dc7cb258132",
+		"66d00271-625a-82b0-f36b-c2a8a7026912",
+		"d22dfd74-52d2-e12d-b5ee-b1c4342a2137"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1681671897539,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0f9c1703-a5ed-6a72-66b3-7a5977c59e99",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/role",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681702715457,
+			"name": "ADD ROLE",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Publisher\"\n}"
+		},
+		{
+			"id": "5b908d3f-a43c-87f6-3bca-48bedc999222",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681704177246,
+			"name": "ADD USER",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"velu@gmail.com\"\n}"
+		},
+		{
+			"id": "66d00271-625a-82b0-f36b-c2a8a7026912",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/setUserRole",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681704179834,
+			"name": "SET USER ROLE",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":4,\n\t\"roleIds\":[4]\n}"
+		},
+		{
+			"id": "80608da2-f9be-586a-73f9-90f1453fe475",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/privilege",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681702712455,
+			"name": "ADD PRIVILEGE",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"fetch\"\n}"
+		},
+		{
+			"id": "a821a3af-4819-3c40-9808-8dc7cb258132",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/setRolePrivilege",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681704178667,
+			"name": "SET ROLE PRIVILEGE",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"id\":4,\r\n\t\"privilegeIds\":[2,3,4]\r\n}\r\n"
+		},
+		{
+			"id": "d22dfd74-52d2-e12d-b5ee-b1c4342a2137",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/fetchUserPrivilege?userId=3",
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1681704163221,
+			"name": "FETCH USER PRIVILEGE",
+			"description": "",
+			"collectionId": "95052a6c-9ea2-a0a3-aa90-a8d7c276dd8a",
+			"responses": []
+		}
+	]
+}
